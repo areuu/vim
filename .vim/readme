@@ -8,3 +8,7 @@ curl --compressed -o- -L https://yarnpkg.com/install.sh | bash
 
 # php 
 npm i intelephense -g
+
+# rust 
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+:CocInstall coc-rls
