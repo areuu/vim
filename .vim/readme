@@ -1,0 +1,10 @@
+# bash language server
+npm i -g bash-language-server
+
+
+#
+curl -sL install-node.now.sh/lts | sh
+curl --compressed -o- -L https://yarnpkg.com/install.sh | bash
+
+# php 
+npm i intelephense -g
