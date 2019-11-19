@@ -8,3 +8,15 @@ curl --compressed -o- -L https://yarnpkg.com/install.sh | bash
 
 # php 
 npm i intelephense -g
+
+# ccls 
+Bear https://github.com/rizsotto/Bear
+scan-build https://github.com/rizsotto/scan-build
+
+https://ianding.io/2019/07/29/configure-coc-nvim-for-c-c++-development/
+
+
+.ccls example:
+clang 
+%c 
+-I../include
