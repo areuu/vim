@@ -10,3 +10,6 @@ set mouse=n
 let g:NERDTreeWinSize=24
 let g:tagbar_width=24
 set rnu!
+
+so /home/uuu/browser/v8.plaidctf.roll.d8/v8/tools/vim/ninja-build.vim
+

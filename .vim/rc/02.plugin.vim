@@ -39,5 +39,6 @@ Plug 'liuchengxu/graphviz.vim'
 Plug 'rust-lang/rust.vim'
 
 Plug 'jsfaint/gen_tags.vim'
+Plug 'pangloss/vim-javascript'
 
 call plug#end()
