@@ -26,3 +26,16 @@ clang
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 :CocInstall coc-rls
 >>>>>>> a684a8869e5d0e1659813c8d69735532b35e642f
+
+CMake
+
+% cmake -H. -BDebug -DCMAKE_BUILD_TYPE=Debug -DCMAKE_EXPORT_COMPILE_COMMANDS=YES
+% ln -s Debug/compile_commands.json .
+
+bear make 
+# generates compile_commands.json
+
+
+ninja -C out/Release -t compdb cxx cc > compile_commands.json 
+
+
