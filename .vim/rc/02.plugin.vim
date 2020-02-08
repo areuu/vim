@@ -18,7 +18,7 @@ Plug 'Lokaltog/vim-easymotion'
 "Plug 'neoclide/coc.nvim', {'branch': 'release'}
 "Plug 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'}
 "Plug 'neoclide/coc.nvim', {'do': { -> coc#util#install()}}
-Plug 'neoclide/coc.nvim', {'do' : { -> coc#util#install() }} " Language Server "
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 
 Plug 'neomake/neomake'
