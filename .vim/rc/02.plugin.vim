@@ -41,4 +41,8 @@ Plug 'rust-lang/rust.vim'
 Plug 'jsfaint/gen_tags.vim'
 Plug 'pangloss/vim-javascript'
 
+
+"swift 
+Plug 'keith/swift.vim'
+
 call plug#end()
