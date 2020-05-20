@@ -1,29 +1,40 @@
 {
 	"suggest.noselect": false,
 	"suggest.timeout": 2000,
-	"suggest.snippetIndicator": "*",
-	"diagnostic.virtualText": true,
+	"suggest.snippetIndicator": "~",
+	"diagnostic.virtualText": false,
 	"python.jediEnabled": true,
 
 "languageserver": {
-	 "ccls": {
+    "ccls": {
       "command": "ccls",
       "filetypes": ["c", "cpp", "objc", "objcpp"],
+			"trace.server": "verbose",
       "rootPatterns": [".ccls", "compile_commands.json", ".vim/", ".git/", ".hg/"],
       "initializationOptions": {
          "cache": {
-           "directory": ".ccls"
-         }
+           "directory": "/tmp/ccls"
+         },
+				 "clang": {
+					 "resourceDir": "/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1", 
+					 "extraArgs": ["-isystem", "/Library/Developer/CommandLineTools/usr/include/c++/v1"]
+				 },
+				  "compilationDatabaseDirectory": "build"
        }
     },
-     "intelephense": {
-            "command": "intelephense",
-            "args": ["--stdio"],
-            "filetypes": ["php"],
-            "initializationOptions": {
-                "storagePath": "/tmp/intelephense"
-            }
-        },
+    "golang": {
+      "command": "gopls",
+      "rootPatterns": ["go.mod", ".vim/", ".git/", ".hg/"],
+      "filetypes": ["go"]
+    },
+		"intelephense": {
+    "command": "intelephense",
+    "args": ["--stdio"],
+    "filetypes": ["php"],
+    "initializationOptions": {
+    "storagePath": "/tmp/intelephense"
+    }
+    },
     "bash": {
       "command": "bash-language-server",
       "args": ["start"],

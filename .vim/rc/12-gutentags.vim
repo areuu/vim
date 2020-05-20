@@ -5,10 +5,10 @@ let g:gutentags_project_root = ['.root', '.svn', '.git', '.hg', '.project']
 let g:gutentags_ctags_tagfile = '.tags'
 
 " 同时打开 ctags 和 gtags 支持
-let g:gutentags_modules = [] 
-if executable('ctags') 
+let g:gutentags_modules = []
+if executable('ctags')
 	let g:gutentags_modules += ['ctags']
-endif 
+endif
 if executable('gtags-cscope') && executable('gtags')
 	let g:gutentags_modules += ['gtags_cscope']
 endif
@@ -28,4 +28,4 @@ let g:gutentags_ctags_extra_args += ['--c-kinds=+px']
 "   silent! call mkdir(s:vim_tags, 'p')
 "endif
 "
-let g:gutentags_auto_add_gtags_cscope = 0 
+let g:gutentags_auto_add_gtags_cscope = 0

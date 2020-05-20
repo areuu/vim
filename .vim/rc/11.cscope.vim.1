@@ -1,28 +1,28 @@
 "Configure for cscope
-"set nocscopeverbose 
-"set cscopequickfix=s-,c-,d-,i-,t-,e-
-"set cst
-"function LoadCscope(path)
-"    "防止无限递归
-"    if a:path == $HOME
-"        return
-"    endif
-"    if (executable("cscope") && has("cscope"))
-"        let l:outfile=a:path."/cscope.out"
-"        let l:outpath=a:path
-"        if filereadable(outfile)
-"            cs reset
-"            exe "cs add" outfile outpath
-"        else
-"            "递归
-"            let l:newpath=a:path."/.."
-"            let newpath=resolve(newpath)
+set nocscopeverbose 
+set cscopequickfix=s-,c-,d-,i-,t-,e-
+set cst
+function LoadCscope(path)
+    "防止无限递归
+    if a:path == $HOME
+        return
+    endif
+    if (executable("cscope") && has("cscope"))
+        let l:outfile=a:path."/cscope.out"
+        let l:outpath=a:path
+        if filereadable(outfile)
+            cs reset
+            exe "cs add" outfile outpath
+        else
+            "递归
+            let l:newpath=a:path."/.."
+            let newpath=resolve(newpath)
             "echo newpath
-"            call LoadCscope(newpath) 
-"        endif
-"    endif
-"endfunction
-"call LoadCscope(getcwd())
+            call LoadCscope(newpath) 
+        endif
+    endif
+endfunction
+call LoadCscope(getcwd())
 
 
 
