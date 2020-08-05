@@ -3,7 +3,8 @@
 	"suggest.timeout": 2000,
 	"suggest.snippetIndicator": "*",
 	"diagnostic.virtualText": true,
-	"python.jediEnabled": true,
+	"python.setLinter": "PyLint",
+	"python.setInterpreter": "/usr/bin/python3",
 
 "languageserver": {
 	 "ccls": {
