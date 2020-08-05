@@ -1,0 +1,2 @@
+#!/bin/sh 
+exec /usr/local/bin/ccls2 -init='{"clang":{"extraArgs":["-isystem", "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include"]}}' "$@"
