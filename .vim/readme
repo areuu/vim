@@ -22,6 +22,9 @@ clang
 %c 
 -I../include
 =======
+
+ccls 
+https://edward852.github.io/post/%E7%94%9F%E6%88%90compile_commands.json%E6%96%87%E4%BB%B6/
 # rust 
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 :CocInstall coc-rls
