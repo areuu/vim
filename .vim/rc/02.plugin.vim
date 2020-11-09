@@ -36,15 +36,15 @@ Plug 'liuchengxu/graphviz.vim'
 " 
 "Plug 'ludovicchabant/vim-gutentags'
 
-Plug 'rust-lang/rust.vim'
+"Plug 'rust-lang/rust.vim'
 
 Plug 'jsfaint/gen_tags.vim'
 Plug 'pangloss/vim-javascript'
 
-Plug 'racer-rust/vim-racer'
+"Plug 'racer-rust/vim-racer'
 
 
 "swift 
-Plug 'keith/swift.vim'
+"Plug 'keith/swift.vim'
 
 call plug#end()
