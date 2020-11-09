@@ -30,8 +30,10 @@ set guifont=Source\ Code\ Pro\ for\ Powerline\ :h18
 "improve autocomplete menu color
 "highlight Pmenu ctermbg=238 gui=bold
 
-highlight Pmenu    guibg=darkgrey  guifg=black 
-highlight PmenuSel guibg=lightgrey guifg=black
+"highlight Pmenu    guibg=darkgrey  guifg=black 
+"highlight PmenuSel guibg=lightgrey guifg=black
+hi Pmenu ctermfg=black ctermbg=gray  guibg=#444444
+hi PmenuSel ctermfg=7 ctermbg=4 guibg=#555555 guifg=#ffffff
 
 " 设定文件浏览器目录为当前目录  
 set bsdir=buffer  

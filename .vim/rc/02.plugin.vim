@@ -31,9 +31,9 @@ Plug 'liuchengxu/graphviz.vim'
 
 "Plug 'ludovicchabant/vim-gutentags'
 
-Plug 'rust-lang/rust.vim'
-Plug 'racer-rust/vim-racer'
+"Plug 'rust-lang/rust.vim'
+"Plug 'racer-rust/vim-racer'
 
-Plug 'jsfaint/gen_tags.vim'
+"Plug 'jsfaint/gen_tags.vim'
 
 call plug#end()

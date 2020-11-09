@@ -3,7 +3,8 @@
 	"suggest.timeout": 2000,
 	"suggest.snippetIndicator": "~",
 	"diagnostic.virtualText": false,
-	"python.jediEnabled": true,
+	"python.setLinter": "PyLint",
+ 	"python.setInterpreter": "/usr/bin/python3",
 
 "languageserver": {
     "ccls": {
@@ -13,19 +14,14 @@
       "rootPatterns": [".ccls", "compile_commands.json", ".vim/", ".git/", ".hg/"],
       "initializationOptions": {
          "cache": {
-           "directory": "/tmp/ccls"
+           "directory": ".ccls"
          },
 				 "clang": {
-					 "resourceDir": "/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1", 
+					 "resourceDir": "/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3", 
 					 "extraArgs": ["-isystem", "/Library/Developer/CommandLineTools/usr/include/c++/v1"]
 				 },
 				  "compilationDatabaseDirectory": "build"
        }
-    },
-    "golang": {
-      "command": "gopls",
-      "rootPatterns": ["go.mod", ".vim/", ".git/", ".hg/"],
-      "filetypes": ["go"]
     },
 		"intelephense": {
     "command": "intelephense",
@@ -41,5 +37,7 @@
       "filetypes": ["sh"],
       "ignoredRootPaths": ["~"]
     }
-  }
+  },
+  "python.linting.pylintEnabled": true,
+  "python.linting.enabled": true
 }
