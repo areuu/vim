@@ -47,4 +47,8 @@ Plug 'pangloss/vim-javascript'
 "swift 
 "Plug 'keith/swift.vim'
 
+Plug 'octol/vim-cpp-enhanced-highlight'
+Plug 'kien/ctrlp.vim'
+Plug 'derekwyatt/vim-fswitch'
+
 call plug#end()

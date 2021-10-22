@@ -9,7 +9,7 @@ hi Normal guibg=NONE ctermbg=NONE
 
 if has("termguicolors")
     " enable true color
-    set termguicolors
+    "set termguicolors
 endif
 
 set guifont=Fira\ Code:h14
