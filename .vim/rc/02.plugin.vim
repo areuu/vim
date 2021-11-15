@@ -2,7 +2,7 @@ call plug#begin('~/.local/share/nvim/plugged')
 
 " My Bundles here:
 Plug 'iCyMind/NeoSolarized'
-Plug 'jremmen/vim-ripgrep'
+"Plug 'jremmen/vim-ripgrep'
 Plug 'scrooloose/nerdtree'
 Plug 'scrooloose/nerdcommenter'
 Plug 'majutsushi/tagbar'
@@ -38,7 +38,7 @@ Plug 'liuchengxu/graphviz.vim'
 
 "Plug 'rust-lang/rust.vim'
 
-Plug 'jsfaint/gen_tags.vim'
+"Plug 'jsfaint/gen_tags.vim'
 Plug 'pangloss/vim-javascript'
 
 "Plug 'racer-rust/vim-racer'

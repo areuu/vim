@@ -5,16 +5,9 @@
 	"diagnostic.virtualText": true,
 	"python.setLinter": "PyLint",
 	"python.setInterpreter": "/usr/bin/python3",
+	"rust-analyzer.serverPath":"/home/uuu/.local/bin/rust-analyzer",
 
 "languageserver": {
-     "intelephense": {
-            "command": "intelephense",
-            "args": ["--stdio"],
-            "filetypes": ["php"],
-            "initializationOptions": {
-                "storagePath": "/tmp/intelephense"
-            }
-        },
     "bash": {
       "command": "bash-language-server",
       "args": ["start"],
