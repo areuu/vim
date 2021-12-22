@@ -33,19 +33,13 @@ Plug 'mhinz/vim-startify'
 Plug 'morhetz/gruvbox'
 Plug 'liuchengxu/graphviz.vim'
 
-" 
-"Plug 'ludovicchabant/vim-gutentags'
 
-"Plug 'rust-lang/rust.vim'
 
 "Plug 'jsfaint/gen_tags.vim'
 Plug 'pangloss/vim-javascript'
 
-"Plug 'racer-rust/vim-racer'
 
 
-"swift 
-"Plug 'keith/swift.vim'
 
 Plug 'octol/vim-cpp-enhanced-highlight'
 Plug 'kien/ctrlp.vim'

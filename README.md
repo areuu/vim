@@ -1,5 +1,10 @@
 # vim
 
+### coc.nvim 
+coc-clangd
+coc-rust-analyzer
+coc-tsserver
+
 ```bash
 git clone https://github.com/vim/vim.git vim-src
 cd vim-src/
