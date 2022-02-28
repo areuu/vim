@@ -5,7 +5,7 @@
 	"diagnostic.virtualText": true,
 	"python.setLinter": "PyLint",
 	"python.setInterpreter": "/usr/bin/python3",
-	"rust-analyzer.serverPath":"/home/uuu/.local/bin/rust-analyzer",
+	"sourcekit.commandPath":"/home/uuu/fuzzjs/swift-5.5.2-RELEASE-ubuntu20.04/usr/bin/sourcekit-lsp",
 
 "languageserver": {
     "bash": {
@@ -13,6 +13,11 @@
       "args": ["start"],
       "filetypes": ["sh"],
       "ignoredRootPaths": ["~"]
-    }
+    },
+		  "ocaml-lsp": {
+    "command": "esy",
+    "args": ["sh", "-c", "ocamllsp"],
+    "filetypes": ["ocaml", "reason"]
   }
+}
 }

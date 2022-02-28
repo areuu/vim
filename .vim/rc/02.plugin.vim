@@ -1,12 +1,12 @@
 call plug#begin('~/.local/share/nvim/plugged')
 
 " My Bundles here:
-Plug 'iCyMind/NeoSolarized'
+"Plug 'iCyMind/NeoSolarized'
 "Plug 'jremmen/vim-ripgrep'
 Plug 'scrooloose/nerdtree'
 Plug 'scrooloose/nerdcommenter'
 Plug 'majutsushi/tagbar'
-Plug 'airblade/vim-gitgutter'
+"Plug 'airblade/vim-gitgutter'
 Plug 'jiangmiao/auto-pairs'
 Plug 'flazz/vim-colorschemes'
 Plug 'tpope/vim-dispatch'
@@ -21,7 +21,7 @@ Plug 'Lokaltog/vim-easymotion'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 
-Plug 'neomake/neomake'
+"Plug 'neomake/neomake'
 Plug 'mhinz/vim-startify'
 "Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 "Plug 'junegunn/fzf.vim'
@@ -30,16 +30,13 @@ Plug 'mhinz/vim-startify'
 "Plug 'Shougo/neosnippet.vim'
 "Plug 'Shougo/neosnippet-snippets'
 
-Plug 'morhetz/gruvbox'
-Plug 'liuchengxu/graphviz.vim'
+"Plug 'morhetz/gruvbox'
+"Plug 'liuchengxu/graphviz.vim'
 
 
 
 "Plug 'jsfaint/gen_tags.vim'
 Plug 'pangloss/vim-javascript'
-
-
-
 
 Plug 'octol/vim-cpp-enhanced-highlight'
 Plug 'kien/ctrlp.vim'
