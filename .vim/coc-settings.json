@@ -5,7 +5,7 @@
 	"diagnostic.virtualText": true,
 	"python.setLinter": "PyLint",
 	"python.setInterpreter": "/usr/bin/python3",
-	"sourcekit.commandPath":"/home/uuu/fuzzjs/swift-5.5.2-RELEASE-ubuntu20.04/usr/bin/sourcekit-lsp",
+	"sourcekit.commandPath":"/home/uuu/repo/swift-5.7-RELEASE-ubuntu20.04/usr/bin/sourcekit-lsp",
 
 "languageserver": {
     "bash": {
@@ -15,8 +15,8 @@
       "ignoredRootPaths": ["~"]
     },
 		  "ocaml-lsp": {
-    "command": "esy",
-    "args": ["sh", "-c", "ocamllsp"],
+    "command": "opam",
+    "args": ["config", "exec", "--", "ocamllsp"],
     "filetypes": ["ocaml", "reason"]
   }
 }
