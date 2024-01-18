@@ -12,3 +12,6 @@ let g:tagbar_width=24
 set rnu!
 
 "so /home/uuu/browser/v8.roll.a.d8/v8/tools/vim/ninja-build.vim
+set ff=unix
+set rtp^="/home/uuu/.opam/4.14.1/share/ocp-indent/vim
+"set termguicolors

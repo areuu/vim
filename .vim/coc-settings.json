@@ -3,9 +3,12 @@
 	"suggest.timeout": 2000,
 	"suggest.snippetIndicator": "*",
 	"diagnostic.virtualText": true,
-	"python.setLinter": "PyLint",
-	"python.setInterpreter": "/usr/bin/python3",
-	"sourcekit.commandPath":"/home/uuu/repo/swift-5.7-RELEASE-ubuntu20.04/usr/bin/sourcekit-lsp",
+	"sourcekit.commandPath":"/home/uuu/repo/swift-5.9.2-RELEASE-ubuntu22.04/usr/bin/sourcekit-lsp",
+
+	"inlayHint.enable": false,
+
+
+
 
 "languageserver": {
     "bash": {
