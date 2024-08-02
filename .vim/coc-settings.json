@@ -3,8 +3,8 @@
 	"suggest.timeout": 2000,
 	"suggest.snippetIndicator": "*",
 	"diagnostic.virtualText": true,
+	"signature.enable": false,
 	"sourcekit.commandPath":"/home/uuu/repo/swift-5.9.2-RELEASE-ubuntu22.04/usr/bin/sourcekit-lsp",
-
 	"inlayHint.enable": false,
 
 
@@ -22,4 +22,5 @@
     "args": ["config", "exec","--" ,"ocamllsp"],
     "filetypes": ["ocaml", "reason"]
   } 
+}
 }
