@@ -13,7 +13,7 @@ Plug 'tpope/vim-dispatch'
 Plug 'tpope/vim-fugitive'
 Plug 'bling/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-Plug 'Lokaltog/vim-easymotion'
+"Plug 'Lokaltog/vim-easymotion'
 
 "Plug 'neoclide/coc.nvim', {'branch': 'release'}
 "Plug 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'}
@@ -39,7 +39,7 @@ Plug 'mhinz/vim-startify'
 Plug 'pangloss/vim-javascript'
 
 Plug 'octol/vim-cpp-enhanced-highlight'
-Plug 'kien/ctrlp.vim'
-Plug 'derekwyatt/vim-fswitch'
+"Plug 'kien/ctrlp.vim'
+"Plug 'derekwyatt/vim-fswitch'
 
 call plug#end()

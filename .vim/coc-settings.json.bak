@@ -21,5 +21,15 @@
     "command": "opam",
     "args": ["config", "exec","--" ,"ocamllsp"],
     "filetypes": ["ocaml", "reason"]
-  } 
+  }, 
+	   "ccls": {
+      "command": "ccls",
+      "filetypes": ["c", "cc", "cpp", "c++", "objc", "objcpp"],
+      "rootPatterns": [".ccls", "compile_commands.json", ".git/", ".hg/"],
+      "initializationOptions": {
+        "cache": {
+          "directory": "/home/uuu/.ccls"
+        }
+      }
+}
 }

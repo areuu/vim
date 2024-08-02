@@ -60,3 +60,39 @@ perl -i -0pe 's/"-I",\s+"\./"-I\./gms' compile_commands.json
 ninja -C out/Release -t compdb cxx cc > compile_commands.json 
 
 
+# read linux kernel 
+#
+# ccls 
+```
+git clone --depth=1 --recursive https://github.com/MaskRay/ccls
+cd ccls
+cmake -H. -BRelease -DCMAKE_BUILD_TYPE=Release -DCMAKE_PREFIX_PATH=/path/to/clang+llvm-xxx
+cmake --build Release
+ccls --version
+```
+
+coc.nvim 
+```
+{
+  "languageserver": {
+    "ccls": {
+      "command": "ccls",
+      "filetypes": ["c", "cc", "cpp", "c++", "objc", "objcpp"],
+      "rootPatterns": [".ccls", "compile_commands.json", ".git/", ".hg/"],
+      "initializationOptions": {
+        "cache": {
+          "directory": "/tmp/ccls"
+        }
+      }
+    }
+  }
+}
+```
+git clone git@github.com:torvalds/linux.git
+cd linux
+
+# 此处我打算查看 x86 架构的代码
+make O=. ARCH=x86 COMPILED_SOURCE=1 cscope tags
+
+# 使用 bear 来监控一次构建，用于生成 compile_commands.json
+bear -- make -j 8
