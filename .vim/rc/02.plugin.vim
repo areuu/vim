@@ -27,8 +27,8 @@ Plug 'mhinz/vim-startify'
 "Plug 'junegunn/fzf.vim'
 
 "Plugins for golang
-"Plug 'Shougo/neosnippet.vim'
-"Plug 'Shougo/neosnippet-snippets'
+Plug 'Shougo/neosnippet.vim'
+Plug 'Shougo/neosnippet-snippets'
 
 "Plug 'morhetz/gruvbox'
 "Plug 'liuchengxu/graphviz.vim'
